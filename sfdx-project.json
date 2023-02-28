@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "mavenMyFunctionProject",
+  "name": "mavenMyFunctionProj",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "55.0"

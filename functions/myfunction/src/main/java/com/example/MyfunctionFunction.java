@@ -79,28 +79,8 @@ public class MyfunctionFunction implements SalesforceFunction<FunctionInput, Fun
         
         List<FunctionWrapper> finalresults = new ArrayList<FunctionWrapper>();
         List<Object> mdmresults=new ArrayList<>(); 
-       /* 
-         File file = new File("conflict-export-all-report.xlsx");   //creating a new file instance  
-        FileInputStream fis = new FileInputStream(file);   //obtaining bytes from the file  
-        //creating Workbook instance that refers to .xlsx file  
-        
       
-        XSSFWorkbook wb = new XSSFWorkbook(fis);   
-        XSSFSheet sheet = wb.getSheetAt(0);     //creating a Sheet object to retrieve object  
-        Iterator<Row> itr = sheet.iterator();    //iterating over excel file  
-        while (itr.hasNext())                 
-        {  
-          Row row = itr.next();  
-          Iterator<Cell> cellIterator = row.cellIterator();   //iterating over each column  
-          while (cellIterator.hasNext())   
-          {  
-              Cell cell = cellIterator.next(); 
-              mdmresults.add(cell.getStringCellValue()); 
-              
-          }  
-        }  
-         */
-        mdmresults.add("Rameswari added :");
+        mdmresults.add("Rameswari added THIS CODE :");
         String REMOTE_HOST = "emamftstage1.deloitteresources.com";  
           //variable for user name  
           String USERNAME = "dtt_sc_dep_outbound";  
